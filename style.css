@@ -1,0 +1,93 @@
+
+.dark-theme{
+    --bgColor: var(--darkPurple);
+    --btnColor: var(--white);
+    --btnInputColor: var(--white);
+    --fontColor: var(--white);
+    --btnFontColor: var(--black);
+    --btnBorderColor: var(--black);
+}
+
+
+.light-theme{
+    --bgColor: var(--lightPurple);
+    --btnColor: var(--black);
+    --btnInputColor: var(--black);
+    --fontColor: var(--black);
+    --btnFontColor: var(--white);
+    --btnBorderColor: var(--white);
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: var(--fontColor); 
+    /* Atribuir aos atributos algumas variáveis para realizar a troca do tema */
+
+}
+body{
+    background-color: var(--bgColor);
+    
+}
+input{
+    width: 250px;
+    height: 20px;
+}
+
+div{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: var(--fontColor);
+
+}
+
+.text{
+    margin: 5px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.btn{
+    width: 52px;
+    height: 52px;
+    position: absolute;
+    top: 20px;
+    left: 300px;
+    background-position: center center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    background-color: var(--btnColor);
+    color: var(--btnFontColor);
+    border-radius: 5px;
+    border-color: var(--btnBorderColor);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+}
+
+.buttonInput{
+    width: 128px;
+    height: 40px;
+    background-color: rgb(150, 92, 153);
+    color: white;
+    border-radius: 5px;
+    border-color: var(--btnInputColor);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.resultado{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+}
+/* Declarando variáveis para manipular os atributos */
+:root{
+    --darkPurple: rgb(26, 20, 34);
+    --white: #ffff;
+    --lightPurple: rgb(243, 229, 252);
+    --black: #000;
+}
