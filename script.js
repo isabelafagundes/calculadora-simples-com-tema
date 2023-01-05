@@ -10,11 +10,11 @@ switcher.addEventListener('click', function(){
     if(className == "light-theme"){
         colorTheme.classList.remove("light-theme");
         colorTheme.classList.add("dark-theme");
-        btnImg.setAttribute('src', './img/sun.png');
+        btnImg.setAttribute('src', 'sun.png');
     } else{
         colorTheme.classList.remove("dark-theme");
         colorTheme.classList.add("light-theme");
-        btnImg.setAttribute('src', './img/moon.png');
+        btnImg.setAttribute('src', 'moon.png');
     }
     console.log('current class name: ' + className);
 });
